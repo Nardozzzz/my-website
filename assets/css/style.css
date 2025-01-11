@@ -250,3 +250,72 @@ img{
         font-size:10vw;
     }
 }
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .profile-box {
+        margin-top: 50px; /* Reduce top margin */
+        margin-bottom: 50px; /* Reduce bottom margin */
+        padding: 20px; /* Add some padding */
+    }
+
+    .profile-title {
+        font-size: 28px; /* Smaller font size for the title */
+    }
+
+    .profile-position {
+        font-size: 14px; /* Reduce font size for the position */
+    }
+
+    .social li a {
+        width: 35px; /* Smaller social icons */
+        height: 35px;
+        font-size: 16px; /* Reduce icon font size */
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .profile-box {
+        margin-top: 50px; /* Reduce top margin */
+        margin-bottom: 50px; /* Reduce bottom margin */
+        padding: 20px; /* Add some padding */
+    }
+
+    .profile-title {
+        font-size: 28px; /* Smaller font size for the title */
+    }
+
+    .profile-position {
+        font-size: 14px; /* Reduce font size for the position */
+    }
+
+    .social li a {
+        width: 35px; /* Smaller social icons */
+        height: 35px;
+        font-size: 16px; /* Reduce icon font size */
+    }
+}
+
+
+.student_id {
+    font-size: 6vw; /* 6% of the viewport width */
+}
+
+
+img {
+    max-width: 100%; /* Scale images to fit the container */
+    height: auto; /* Maintain aspect ratio */
+}
